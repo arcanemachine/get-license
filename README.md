@@ -1,7 +1,13 @@
 # get-license
 
-Easily download a license template into your repo folder.
+Select an open-source license from this repo, or use `wget` or `curl` to easily download a license into your desired directory whenever you need one.
 
-## Example
 
-`wget https://get-license.surge.sh/mit/LICENSE`
+## Examples
+
+  - `wget get-license.surge.sh/mit/ -O LICENSE`
+  - `curl get-license.surge.sh/mit/ > LICENSE`
+
+
+(c) 2022 arcanemachine
+https://github.com/arcanemachine/get-license.git
